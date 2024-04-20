@@ -183,9 +183,9 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-```
+
 ![Screenshot 2024-04-20 131207](https://github.com/Dhanaalakshmi/OS-Linux-commands-Shell-script/assets/155127252/cf64e48a-e293-4f78-b5fc-db4c110030a3)
-```
+
 
 
 grep -w -n world newfile   
@@ -535,9 +535,9 @@ www.mrcet.com
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-```
+
 ![image](https://github.com/Dhanaalakshmi/OS-Linux-commands-Shell-script/assets/155127252/2bb36cd7-2bdc-44b3-9287-1bbec888ca5f)
-```
+
 
 mkdir backupdir
  
@@ -545,15 +545,15 @@ mv backup.tar backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-```
+
 ![image](https://github.com/Dhanaalakshmi/OS-Linux-commands-Shell-script/assets/155127252/707377a3-d6ac-4867-923f-0992323bcc91)
 
-```
+
 tar -xvf backup.tar
 ## OUTPUT
-```
+
 ![image](https://github.com/Dhanaalakshmi/OS-Linux-commands-Shell-script/assets/155127252/b1165520-1831-4965-90ff-d2d23acee0fe)
-```
+
 gzip backup.tar
 
 ls .gz
